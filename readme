@@ -13,3 +13,45 @@ Experience/Education → timeline.
 Contact → formulario.
 
 Footer → links sociales.
+------------------------
+Navbar
+
+Es el que guía todo el portafolio.
+
+Haz los links que solo apunten a #home, #about, etc. por ahora.
+
+Hero
+
+Tu nombre, profesión y foto.
+
+Esto te da el “landing” del sitio.
+
+About
+
+Bio y experiencia resumida.
+
+Ya puedes crear tus props o usar datos estáticos.
+
+Footer
+
+Links sociales.
+
+Lo agregas rápido y puedes ir viendo cómo se ve todo.
+
+Hasta aquí ya tienes una estructura básica y visible.
+----
+Projects
+
+Crea un array de proyectos (data/projects.ts) y mapea para generar cards.
+
+Skills
+
+Similar: array de skills con nombre y nivel → barras de progreso.
+
+Experience / Education
+
+Timeline: lista de items con fechas y descripción.
+
+Contact
+
+Formulario: puedes dejarlo solo visual o conectarlo a un endpoint más adelante.
