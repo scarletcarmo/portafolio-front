@@ -10,3 +10,6 @@ export interface Project {
     status?: string;
     userId?: number;
 }
+
+export type CreateProjectDto = Omit <Project, "id">
+export type UpdateProjectDto = Partial<CreateProjectDto>;
