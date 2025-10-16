@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Hamburger.css";
 
 const HamburgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => setIsOpen(!isOpen);
+    const closeMenu = () => setIsOpen(false);
 
     return (
         <div className="hamburger-container">
@@ -17,16 +19,15 @@ const HamburgerMenu = () => {
             </div>
 
             <nav className={`menu ${isOpen ? "open" : ""}`}>
-                <a href="#home" onClick={toggleMenu}>Inicio</a>
-                <a href="#about" onClick={toggleMenu}>Sobre mí</a>
-                <a href="#projects" onClick={toggleMenu}>Proyectos</a>
-                <a href="#skills" onClick={toggleMenu}>Habilidades</a>
-                <a href="#experience" onClick={toggleMenu}>Experiencia</a>
-                <a href="#contact" onClick={toggleMenu}>Contactos</a>
+                <Link to="/" onClick={closeMenu}>Inicio</Link>
+                <Link to="/about" onClick={closeMenu}>Sobre mí</Link>
+                <Link to="/projects" onClick={closeMenu}>Proyectos</Link>
+                <Link to="/skills" onClick={closeMenu}>Habilidades</Link>
+                <Link to="/experience" onClick={closeMenu}>Experiencia</Link>
+                <Link to="/contact" onClick={closeMenu}>Contactos</Link>
             </nav>
-
         </div>
-    )
-}
+    );
+};
 
-export default HamburgerMenu 
+export default HamburgerMenu;

@@ -1,12 +1,12 @@
-.portfolio {
-    padding: 24rem;
+.projects {
+    padding: 2rem;
     background-image: url('../assets/code-background.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    padding: 150px 20px 60px;
-    position: relative;
+    padding: 150px 100px 60px;
+    /*position: relative;*/
 }
 
 .overlay {
@@ -21,22 +21,20 @@
 }
 
 .overlay p {
-    max-width: 600px;
-    margin: 0 auto;
     font-size: 1.1rem;
 }
 
-.filters {
+.filter {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding: 2rem 0;
+    padding: 2rem;
     background: white;
     color: black;
     flex-wrap: wrap;
 }
 
-.filters button {
+.filter button {
     background: none;
     border: none;
     font-weight: bold;
@@ -46,12 +44,3 @@
     position: relative;
 }
 
-.filters button.active::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    bottom: -5px;
-    left: 0;
-    background: black;
-}

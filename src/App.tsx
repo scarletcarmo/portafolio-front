@@ -1,17 +1,8 @@
-import Navbar from "./components/HamburgerMenu"
-import "./App.css";
-import MainPage from "./components/MainPage";
-import Footer from "./components/Footer";
+import { RouterProvider } from "react-router-dom";
+import router from "./router/router";
 
 function App() {
-
-  return (
-    <div>
-      <Navbar />
-      <MainPage />
-      <Footer />
-    </div>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;

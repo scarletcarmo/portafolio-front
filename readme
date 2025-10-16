@@ -55,3 +55,20 @@ Timeline: lista de items con fechas y descripción.
 Contact
 
 Formulario: puedes dejarlo solo visual o conectarlo a un endpoint más adelante.
+
+
+
+------CSS
+CSS interpreta los valores según cuántos pongas:
+
+Ejemplo	Significado	Explicación
+padding: 20px;	Todos los lados = 20px	Arriba, derecha, abajo, izquierda
+padding: 60px 20px;	Arriba/abajo = 60px
+Izquierda/derecha = 20px	(2 valores)
+padding: 150px 100px 60px;	Arriba = 150px
+Izquierda/derecha = 100px
+Abajo = 60px	(3 valores)
+padding: 150px 100px 60px 30px;	Arriba = 150px
+Derecha = 100px
+Abajo = 60px
+Izquierda = 30px
