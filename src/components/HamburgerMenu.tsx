@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/Navbar.css";
+import "../styles/Hamburger.css";
 
 const HamburgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -7,8 +7,8 @@ const HamburgerMenu = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <div>
-            <div className="logo">Scarlet</div>
+        <div className="hamburger-container">
+            <div className="navbar-logo">scarlet</div>
 
             <div className="hamburger" onClick={toggleMenu}>
                 <div className="bar" />
@@ -17,12 +17,14 @@ const HamburgerMenu = () => {
             </div>
 
             <nav className={`menu ${isOpen ? "open" : ""}`}>
-                <a href="#inicio">Inicio</a>
-                <a href="#sobre-mi">Sobre mí</a>
-                <a href="#portfolio">Proyectos</a>
-                <a href="#blog">Habilidades</a>
-                <a href="#contacto">Contactos</a>
+                <a href="#home" onClick={toggleMenu}>Inicio</a>
+                <a href="#about" onClick={toggleMenu}>Sobre mí</a>
+                <a href="#projects" onClick={toggleMenu}>Proyectos</a>
+                <a href="#skills" onClick={toggleMenu}>Habilidades</a>
+                <a href="#experience" onClick={toggleMenu}>Experiencia</a>
+                <a href="#contact" onClick={toggleMenu}>Contactos</a>
             </nav>
+
         </div>
     )
 }
