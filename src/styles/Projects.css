@@ -1,12 +1,12 @@
 .projects {
-    padding: 2rem;
     background-image: url('../assets/code-background.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    padding: 150px 100px 60px;
-    /*position: relative;*/
+    padding: 150px 100px 80px;
+    position: relative;
+    margin-top: 55px;
 }
 
 .overlay {
@@ -43,4 +43,3 @@
     padding: 0.5rem;
     position: relative;
 }
-

@@ -1,7 +1,9 @@
 .hamburger-container {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    box-sizing: border-box;   /* evita que el padding sume al ancho total */
     background-color: #000;
     padding: 1rem 2rem;
     display: flex;
@@ -16,7 +18,8 @@
 .navbar-logo {
     color: white;
     font-size: 1.5rem;
-    /*font-weight: bold;*/
+    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 
 /* Botón hamburguesa */

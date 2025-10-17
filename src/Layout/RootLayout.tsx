@@ -6,7 +6,7 @@ const RootLayout = () => {
     return (
         <div>
             <HamburgerMenu />
-            <div style={{ paddingTop: "80px" }}>
+            <div>
                 <Outlet />
             </div>
             <Footer />

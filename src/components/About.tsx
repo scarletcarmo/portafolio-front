@@ -1,11 +1,10 @@
-import React from 'react'
-
 const About = () => {
     return (
-        <div>
+        <section id="about" className="about">
+            <p>Acerca de mí</p>
+            <p>Contenido de About...</p>
+        </section>
+    );
+};
 
-        </div>
-    )
-}
-
-export default About
+export default About;
