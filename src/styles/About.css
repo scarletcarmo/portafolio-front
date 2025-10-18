@@ -1,0 +1,38 @@
+.about {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.capitalize {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 20px;
+        letter-spacing: 1px;
+    }
+
+    .capitalize {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        padding: 15px;
+        letter-spacing: 0.8px;
+    }
+
+    .capitalize {
+        font-size: 1.1rem;
+    }
+}

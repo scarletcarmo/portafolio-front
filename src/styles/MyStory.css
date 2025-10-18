@@ -1,0 +1,30 @@
+.my-story {
+    padding: 40px 30px;
+    background-color: #ffffff;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+/* Columnas about - story */
+.about-container {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.about-column {
+    flex: 1;
+    /* ocupa la mitad del contenedor */
+    min-width: 300px;
+    /* evita que quede demasiado estrecho */
+}
+
+.story-column {
+    flex: 1;
+    min-width: 300px;
+    padding: 5px;
+}

@@ -1,0 +1,36 @@
+.tbl-skill-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.tbl-skill {
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tbl-skill caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+}
+
+.tbl-skill th,
+.tbl-skill td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tbl-skill th {
+    background-color: #34495E;
+    color: white;
+}
+
+

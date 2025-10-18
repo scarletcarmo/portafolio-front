@@ -1,0 +1,40 @@
+.see-projects {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.see-projects h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.buttoms {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.buttoms button,
+.buttoms .button-link {
+    background-color: #ffffff;
+    color: #007BFF;
+    border: solid #ffffff;
+    padding: 8px 22px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.buttoms button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+    border-color: #0056b3;
+}
