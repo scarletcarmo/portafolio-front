@@ -1,0 +1,48 @@
+.experience-section {
+    margin-top: 60px;
+    background-color: #eee5de;
+    padding: 2rem;
+}
+
+.experience-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: black; /* naranja elegante para el título */
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.experience-card {
+    background: linear-gradient(135deg, #4c4d57 0%, #ab694a 90%);
+    padding: 1.5rem;
+    border-radius: 16px;
+    flex: 1 1 45%;
+    min-width: 280px;
+    position: relative;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.exp-date {
+    font-size: 0.85rem;
+    color: rgba(193, 188, 182, 0.8); 
+}
+
+ul {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+}
