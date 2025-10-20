@@ -8,14 +8,13 @@ const MyStory = () => {
                 <div className='about-column'>
                     <h2>Cómo comenzó mi historia</h2>
                     <p>
-                        Mi nombre es <strong>Scarlet Carvaca</strong>, soy desarrolladora <strong>Fullstack</strong> apasionada por la
-                        tecnología y la creación de aplicaciones eficientes y escalables.vida en el navegador.
+                        Comencé mi carrera en 2021, iniciándome con conceptos básicos de <strong>desarrollo backend</strong>  y <strong>bases de datos</strong>.
+                        Poco a poco fui introduciéndome en el desarrollo frontend, aprendiendo tecnologías como <strong>React</strong> y <strong>TypeScript</strong>.
                     </p>
                     <p>
-                        Desde mis primeros proyectos, me he enfocado en desarrollo web y aplicaciones, especializándome en 
-                        <strong>TypeScript</strong>, <strong>React</strong>, <strong>Express</strong> y <strong>Java Spring Boot</strong>, 
-                        así como en bases de datos <strong>MySQL</strong>. Con experiencia intermedia en <strong>microservicios</strong> y <strong>WebSockets</strong>, 
-                        y conocimientos básicos en <strong>Docker</strong>, he trabajado tanto en <strong>frontend</strong> como <strong>backend</strong>, aportando soluciones seguras y optimizadas.
+                        Durante este tiempo, he trabajado en proyectos que me han permitido mejorar la experiencia de usuario,
+                        optimizar aplicaciones web y fortalecer mis habilidades en programación  <strong>fullstack</strong>, combinando lógica del servidor
+                        con interfaces atractivas y funcionales
                     </p>
                 </div>
                 <div className='story-column'><TblSkill /></div>

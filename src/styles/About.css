@@ -1,16 +1,23 @@
 .about {
-    margin-top: 60px;
-    padding: 30px;
-    background-color: #f9f9f9;
+    margin-top: 40px;
+    background-color: #ffffff;
     letter-spacing: 1.5px;
-    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .capitalize {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /* Media Queries */

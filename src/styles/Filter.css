@@ -7,6 +7,7 @@
     color: black;
     margin-top: 20px;
     flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
 }
 
 .filters button {

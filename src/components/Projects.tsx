@@ -17,7 +17,6 @@ const Projects = () => {
       </section>
       <Filter />
     </>
-
   )
 }
 
