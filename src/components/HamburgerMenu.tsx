@@ -24,7 +24,7 @@ const HamburgerMenu = () => {
                 <Link to="/projects" onClick={closeMenu}>Proyectos</Link>
                 <Link to="/skills" onClick={closeMenu}>Habilidades</Link>
                 <Link to="/experience" onClick={closeMenu}>Experiencia</Link>
-                <Link to="/contact" onClick={closeMenu}>Contactos</Link>
+                <Link to="/contact" onClick={closeMenu}>Contactame</Link>
             </nav>
         </div>
     );

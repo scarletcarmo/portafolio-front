@@ -32,6 +32,23 @@
     letter-spacing: 2px;
 }
 
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.social-links a {
+    color: #f39c12;
+    font-size: 2rem;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
 .scroll-down {
     font-size: 2rem;
     color: white;
