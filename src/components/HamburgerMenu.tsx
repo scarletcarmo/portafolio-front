@@ -10,7 +10,7 @@ const HamburgerMenu = () => {
 
     return (
         <div className="hamburger-container">
-            <div className="navbar-logo">scarlet</div>
+            <div className="navbar-logo">Scarlet Carvaca M.</div>
 
             <div className="hamburger" onClick={toggleMenu}>
                 <div className="bar" />

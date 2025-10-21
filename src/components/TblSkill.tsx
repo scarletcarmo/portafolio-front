@@ -26,7 +26,7 @@ const TblSkill = () => {
                     <tr>
                         <td>TypeScript</td>
                         <td>Avanzado</td>
-                        <td>1</td>
+                        <td>2</td>
                     </tr>
                     <tr>
                         <td>Spring Boot</td>

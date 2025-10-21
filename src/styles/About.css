@@ -3,7 +3,6 @@
     background-color: #ffffff;
     letter-spacing: 1.5px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .container {
@@ -16,8 +15,8 @@
 .capitalize {
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 /* Media Queries */
