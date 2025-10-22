@@ -1,9 +1,18 @@
 import "../styles/Projects.css";
-import "../styles/Filter.css";
 
 import Filter from "./Filter";
+import { useState } from "react";
+import Carrusel from "./Carrusel";
 
 const Projects = () => {
+  const [selectedFilter, setSelectedFilter] = useState("ALL");
+
+  console.log(selectedFilter);
+  
+  const onChangeFilter = (filter: string) => {
+    setSelectedFilter(filter);
+  }
+
   return (
     <>
       <section className="projects" id="projects">
@@ -15,7 +24,8 @@ const Projects = () => {
           </p>
         </div>
       </section>
-      <Filter />
+      <Filter onFilterChange={onChangeFilter} />
+      <Carrusel filter={selectedFilter} />
     </>
   )
 }

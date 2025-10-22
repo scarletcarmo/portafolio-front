@@ -26,3 +26,10 @@
     transition: 0.3s;
     color: white;
 }
+
+.filters button.active {
+    background-color: #f39c12 !important;
+    color: white !important;
+    border-radius: 5px;
+    transform: scale(1.05);
+}
