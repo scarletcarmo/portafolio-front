@@ -1,10 +1,11 @@
 import "../styles/Contact.css";
+
 const Contact = () => {
     return (
-        <>
-            <section className="contact-me">
+        <section className="contact-section">
+            <div className="contact-me">
                 <h2>Contáctame</h2>
-                <form action="">
+                <form>
                     <input
                         type="text"
                         name="name"
@@ -24,9 +25,9 @@ const Contact = () => {
                     />
                     <button type="submit">Enviar</button>
                 </form>
-            </section>
-        </>
-    )
-}
+            </div>
+        </section>
+    );
+};
 
-export default Contact
+export default Contact;

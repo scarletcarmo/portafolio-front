@@ -1,28 +1,30 @@
-/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #fff;
+}
+
 .contact-me {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin: 0 auto; 
-    height: 100vh; 
     background-color: #f39c12;
-    padding: 20px 20px;
+    padding: 20px;
+    border-radius: 20px;
     max-width: 500px;
-    border-radius: 20px; 
-    box-sizing: border-box;
+    width: 90%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Título */
 .contact-me h2 {
     margin-bottom: 25px;
+    color: #fff;
     font-size: 2rem;
     letter-spacing: 1px;
-    color: #fff;
 }
 
-/* Inputs y Textarea */
 .contact-me input,
 .contact-me textarea {
     width: 100%;
@@ -32,31 +34,26 @@
     border: none;
     outline: none;
     font-size: 1rem;
-    transition: all 0.3s ease;
     box-sizing: border-box;
 }
 
-/* Efecto al enfocar */
 .contact-me input:focus,
 .contact-me textarea:focus {
-    box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 12px rgba(199, 53, 53, 0.7);
 }
 
-/* Textarea */
 .contact-me textarea {
     min-height: 120px;
     resize: none;
 }
 
-/* Botón */
 .contact-me button {
     padding: 12px 30px;
     background-color: #ff7f50;
-    color: #fff;
-    font-weight: bold;
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .contact-me button:hover {
@@ -65,7 +62,6 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .contact-me {
         padding: 20px;
